@@ -1,0 +1,16 @@
+{
+  "name": "prunerai",
+  "description": "A specialized Agent for General Reasoning called prunerai",
+  "base_model": {
+    "id": "deepseek-v3-base",
+    "name": "DeepSeek V3",
+    "huggingface": "deepseek-ai/DeepSeek-V3-Base",
+    "provider": "DeepSeek"
+  },
+  "config": {
+    "ragEnabled": true
+  },
+  "endpoint": "https://thwyuilswskxejzjwkyr.supabase.co/functions/v1/model-inference",
+  "created_at": "2026-02-02T21:55:38.888102+00:00",
+  "updated_at": "2026-02-04T04:58:19.879Z"
+}

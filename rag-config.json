@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "chunk_size": 512,
+  "chunk_overlap": 50,
+  "embedding_model": "text-embedding-ada-002",
+  "vector_store": "supabase",
+  "retrieval": {
+    "top_k": 5,
+    "similarity_threshold": 0.7
+  }
+}
